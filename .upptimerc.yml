@@ -1,31 +1,24 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: LCstatus
+repo: LCstatus.github.io
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: Browsing
+    url: $BROWSING
+  - name: Posting
+    method: POST
+    url: $POSTING
+    
+i18n:
+  footer: "&#x5B; [Rules](https://lolcow.farm/rules) &#x5D; &#x5B; [ot](https://lolcow.farm/ot/index.html) / [g](https://lolcow.farm/g/index.html) / [m](https://lolcow.farm/m/index.html) / [2X](https://lolcow.farm/2X/index.html) &#x5D; &#x5B; [pt](https://lolcow.farm/pt/index.html) / [snow](https://lolcow.farm/snow/index.html) / [w](https://lolcow.farm/w/index.html) &#x5D; &#x5B; [meta](https://lolcow.farm/meta/index.html) &#x5D;"
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+  cname: status.lolcow.farm
+  baseUrl: /
+  theme: light
+  css: ":root{--body-background-color:#fdfdfe;--body-text-color:#666;--card-background-color:#d6daf0;--nav-background-color:#002b29;--nav-border-bottom-color:#015450;--nav-current-border-bottom-color:#1abc9c;--card-border-color:#b7c5d9;--down-border-left-color:red;--down-background-color:#ffd0d2;--degraded-border-left-color:#f7b731;--up-border-left-color:#117743;--tag-color:#002b29;--tag-up-background-color:#117743;--tag-down-background-color:red;--tag-degraded-background-color:#f7b731;--change-background-color:#98e;--error-button-border-color:#1a46ad;--error-button-background-color:#3867d6;--error-button-color:#ffffff;--submit-button-border-color:#1a46ad;--submit-button-background-color:#3867d6;--submit-button-color:#ffffff;--graph-opacity:1;--graph-filter: brightness(0.35) sepia(1) hue-rotate(88deg) saturate(8)}body{font-family:Verdana, Arial, Helvetica, sans-serif !important;font-size:12px !important}nav{display:none}dl{background:var(--card-background-color);padding:1.3rem 0.3em 0.5em 0.6em;border-width:1px;border-style:none solid solid none;border-color:#b7c5d9}dl+div{display:none}div.f{display:block}h1,main > h2:first-child{color:#af0a0f;font-family:tahoma !important;letter-spacing:-2px;margin:0;font-size:20pt !important;padding-top:2rem;font-weight:bold !important}.tag{font-family:Verdana, Arial, Helvetica, sans-serif !important;letter-spacing:initial}.tag.closed,.tag.up{color:var(--body-background-color) !important}a,a:visited,label{color:#34345c !important;cursor:pointer}footer a,footer a:visited{color:#2b0f51 !important;text-decoration:none}footer{opacity:1 !important}h1 a,h1 a:visited{color:#af0a0f !important}article:not(.link){background:#fff;color:#000;border:1px solid grey;border-left:3px solid #98e}"
+  favicon: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAgMAAABinRfyAAAACVBMVEUAAAAAAQPt8/cRxPmsAAAAAXRSTlMAQObYZgAAADlJREFUeAFjAAMBByAhygAiQKzQ0FAHhsDIqAAGxlVRUxgYMyNDgMQyFwbG0FAXBoYARjDhgE6AAAC4kAsa2lrxJAAAAABJRU5ErkJggg==
+  name: status - lolcow.farm
+  introTitle: "**status - lolcow.farm**" 
+  metaTags:
+    - name: "robots"
+      content: "noindex"
