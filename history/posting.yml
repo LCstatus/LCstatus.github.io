@@ -1,7 +1,7 @@
 url: $POSTING
-status: down
-code: 500
-responseTime: 104
-lastUpdated: 2024-12-25T16:13:54.155Z
+status: up
+code: 200
+responseTime: 231
+lastUpdated: 2024-12-25T16:32:55.371Z
 startTime: 2023-02-27T20:58:41.000Z
 generator: Upptime <https://github.com/upptime/upptime>
