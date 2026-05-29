@@ -1,7 +1,7 @@
 url: $BROWSING
-status: down
-code: 522
-responseTime: 19340
-lastUpdated: 2026-05-29T02:28:42.705Z
+status: up
+code: 200
+responseTime: 153
+lastUpdated: 2026-05-29T10:31:22.094Z
 startTime: 2023-02-27T20:58:40.000Z
 generator: Upptime <https://github.com/upptime/upptime>
